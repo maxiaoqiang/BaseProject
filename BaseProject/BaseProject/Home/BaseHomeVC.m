@@ -17,8 +17,10 @@
 
 @end
 
-NSString *const demo0Description = @"demo1111";
-NSString *const demo1Description = @"demo222";
+NSString *const demo0Description = @"GCD（一）";
+NSString *const demo1Description = @"GCD（二）";
+NSString *const demo2Description = @"333";
+
 
 @implementation BaseHomeVC
 
@@ -31,7 +33,7 @@ NSString *const demo1Description = @"demo222";
     self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
     
-    _contentArray = @[demo0Description,demo1Description];
+    _contentArray = @[demo0Description,demo1Description,demo2Description];
     
 }
 

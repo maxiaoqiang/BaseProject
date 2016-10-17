@@ -16,6 +16,7 @@
 		FE618DA91DADE0FB00E56910 /* DemoVC0.m in Sources */ = {isa = PBXBuildFile; fileRef = FE618DA81DADE0FB00E56910 /* DemoVC0.m */; };
 		FE618DAC1DADE10E00E56910 /* DemoVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE618DAB1DADE10E00E56910 /* DemoVC1.m */; };
 		FE618DAF1DADE14100E56910 /* BaseHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE618DAE1DADE14100E56910 /* BaseHomeCell.m */; };
+		FE9F4B701DB4813F009B9B27 /* DemoVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9F4B6F1DB4813F009B9B27 /* DemoVC2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		FE618DAB1DADE10E00E56910 /* DemoVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC1.m; sourceTree = "<group>"; };
 		FE618DAD1DADE14100E56910 /* BaseHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHomeCell.h; sourceTree = "<group>"; };
 		FE618DAE1DADE14100E56910 /* BaseHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHomeCell.m; sourceTree = "<group>"; };
+		FE9F4B6E1DB4813F009B9B27 /* DemoVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC2.h; sourceTree = "<group>"; };
+		FE9F4B6F1DB4813F009B9B27 /* DemoVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 		FE618DA11DADDF7F00E56910 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FE9F4B6D1DB48119009B9B27 /* Demo2 */,
 				FE618DA61DADE0D500E56910 /* Demo0 */,
 				FE618DA51DADE0C000E56910 /* Demo1 */,
 				FE618DA21DADDFD600E56910 /* BaseHomeVC.h */,
@@ -116,6 +120,15 @@
 				FE618DA81DADE0FB00E56910 /* DemoVC0.m */,
 			);
 			path = Demo0;
+			sourceTree = "<group>";
+		};
+		FE9F4B6D1DB48119009B9B27 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE9F4B6E1DB4813F009B9B27 /* DemoVC2.h */,
+				FE9F4B6F1DB4813F009B9B27 /* DemoVC2.m */,
+			);
+			path = Demo2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +205,7 @@
 				FE618DA41DADDFD600E56910 /* BaseHomeVC.m in Sources */,
 				FE18B8331DACD76800046A75 /* AppDelegate.m in Sources */,
 				FE618DA91DADE0FB00E56910 /* DemoVC0.m in Sources */,
+				FE9F4B701DB4813F009B9B27 /* DemoVC2.m in Sources */,
 				FE618DAF1DADE14100E56910 /* BaseHomeCell.m in Sources */,
 				FE18B8301DACD76800046A75 /* main.m in Sources */,
 				FE618DAC1DADE10E00E56910 /* DemoVC1.m in Sources */,
