@@ -19,7 +19,7 @@
 
 NSString *const demo0Description = @"GCD（一）";
 NSString *const demo1Description = @"GCD（二）";
-NSString *const demo2Description = @"333";
+NSString *const demo2Description = @"GCD (三)";
 
 
 @implementation BaseHomeVC
