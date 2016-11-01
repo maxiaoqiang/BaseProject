@@ -12,6 +12,7 @@
 		FE18B8391DACD76800046A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE18B8371DACD76800046A75 /* Main.storyboard */; };
 		FE18B83B1DACD76800046A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE18B83A1DACD76800046A75 /* Assets.xcassets */; };
 		FE18B83E1DACD76800046A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE18B83C1DACD76800046A75 /* LaunchScreen.storyboard */; };
+		FE4D2F7B1DC87301009BA7A8 /* DemoVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4D2F7A1DC87301009BA7A8 /* DemoVC3.m */; };
 		FE618DA41DADDFD600E56910 /* BaseHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE618DA31DADDFD600E56910 /* BaseHomeVC.m */; };
 		FE618DA91DADE0FB00E56910 /* DemoVC0.m in Sources */ = {isa = PBXBuildFile; fileRef = FE618DA81DADE0FB00E56910 /* DemoVC0.m */; };
 		FE618DAC1DADE10E00E56910 /* DemoVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE618DAB1DADE10E00E56910 /* DemoVC1.m */; };
@@ -28,6 +29,8 @@
 		FE18B83A1DACD76800046A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE18B83D1DACD76800046A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE18B83F1DACD76800046A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4D2F791DC87301009BA7A8 /* DemoVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC3.h; sourceTree = "<group>"; };
+		FE4D2F7A1DC87301009BA7A8 /* DemoVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC3.m; sourceTree = "<group>"; };
 		FE618DA21DADDFD600E56910 /* BaseHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHomeVC.h; sourceTree = "<group>"; };
 		FE618DA31DADDFD600E56910 /* BaseHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHomeVC.m; sourceTree = "<group>"; };
 		FE618DA71DADE0FB00E56910 /* DemoVC0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC0.h; sourceTree = "<group>"; };
@@ -90,9 +93,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FE4D2F781DC872EA009BA7A8 /* Demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				FE4D2F791DC87301009BA7A8 /* DemoVC3.h */,
+				FE4D2F7A1DC87301009BA7A8 /* DemoVC3.m */,
+			);
+			path = Demo3;
+			sourceTree = "<group>";
+		};
 		FE618DA11DADDF7F00E56910 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FE4D2F781DC872EA009BA7A8 /* Demo3 */,
 				FE9F4B6D1DB48119009B9B27 /* Demo2 */,
 				FE618DA61DADE0D500E56910 /* Demo0 */,
 				FE618DA51DADE0C000E56910 /* Demo1 */,
@@ -207,6 +220,7 @@
 				FE618DA91DADE0FB00E56910 /* DemoVC0.m in Sources */,
 				FE9F4B701DB4813F009B9B27 /* DemoVC2.m in Sources */,
 				FE618DAF1DADE14100E56910 /* BaseHomeCell.m in Sources */,
+				FE4D2F7B1DC87301009BA7A8 /* DemoVC3.m in Sources */,
 				FE18B8301DACD76800046A75 /* main.m in Sources */,
 				FE618DAC1DADE10E00E56910 /* DemoVC1.m in Sources */,
 			);

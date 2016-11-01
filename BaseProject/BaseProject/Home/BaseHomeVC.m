@@ -20,7 +20,7 @@
 NSString *const demo0Description = @"GCD（一）";
 NSString *const demo1Description = @"GCD（二）";
 NSString *const demo2Description = @"GCD (三)";
-
+NSString *const demo3Description = @"百度地图基础知识";
 
 @implementation BaseHomeVC
 
@@ -33,7 +33,7 @@ NSString *const demo2Description = @"GCD (三)";
     self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
     
-    _contentArray = @[demo0Description,demo1Description,demo2Description];
+    _contentArray = @[demo0Description,demo1Description,demo2Description,demo3Description];
     
 }
 
